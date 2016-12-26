@@ -31,7 +31,7 @@
 
 		mysqli_set_charset($conexion, "utf-8");
 
-		$consulta="INSERT INTO DATOS(nombres, apellidos, numeroCasa, numeroTrabajo, correoElectronico) VALUES ('$nom','$ape','$nuc','$nut','$coel')"; 
+		$consulta="INSERT INTO datos(nombres, apellidos, numeroCasa, numeroTrabajo, correoElectronico) VALUES ('$nom','$ape','$nuc','$nut','$coel')"; 
 
 		$resultados=mysqli_query($conexion,$consulta);
 

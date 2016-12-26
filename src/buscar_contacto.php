@@ -35,7 +35,7 @@
 
 		mysqli_set_charset($conexion, "utf-8");
 
-		$consulta="SELECT * FROM `datos` WHERE nombres LIKE'%$noms%' AND apellidos LIKE'%$apel%'"; 
+		$consulta="SELECT * FROM datos WHERE nombres LIKE'%$noms%' AND apellidos LIKE'%$apel%'"; 
 
 		$resultados=mysqli_query($conexion,$consulta);
 
