@@ -23,27 +23,27 @@
 <form name="form1" method="get" id="formulario" style="display: none;" action="insertar_contacto.php">
   <table border="0">
     <tr>
-      <td>Nombres:</td>
+      <td>Nombres:&nbsp;</td>
       <td><label for="noms"></label>
       <input class="form-control" type="text" name="noms" id="noms"></td>
     </tr>
     <tr>
-      <td>Apellidos:</td>
+      <td>Apellidos:&nbsp;</td>
       <td><label for="apell"></label>
       <input class="form-control" type="text" name="apell" id="apell"></td>
     </tr>
     <tr>
-      <td>Numero de casa:</td>
+      <td>Numero de casa:&nbsp;</td>
       <td><label for="n_casa"></label>
       <input class="form-control" type="number" name="n_casa" id="n_casa"></td>
     </tr>
     <tr>
-      <td>Numero de trabajo:</td>
+      <td>Numero de trabajo:&nbsp;</td>
       <td><label for="n_trabajo"></label>
       <input class="form-control" type="number" name="n_trabajo" id="n_trabajo"></td>
     </tr>
     <tr>
-      <td>Correo electronico:</td>
+      <td>Correo electronico:&nbsp;</td>
       <td><label for="co_el"></label>
       <input class="form-control" type="email" name="co_el" id="co_el"></td>
     </tr>
@@ -52,7 +52,7 @@
       <td>&nbsp;</td>
     </tr>
     <tr>
-      <td align="center"><input type="submit" name="enviar" id="enviar" value="Enviar" act></td>
+      <td align="center"><input type="submit" name="enviar" id="enviar" value="Enviar" ></td>
       <td align="center"><input type="reset" name="Borrar" id="Borrar" value="Borrar"></td>
     </tr>
   </table>
@@ -69,12 +69,12 @@
 <form name="form1" method="get" id="formulario1" style="display: none;" action="buscar_contacto.php">
   <table border="0">
     <tr>
-      <td>Nombres:</td>
+      <td>Nombres:&nbsp;</td>
       <td><label for="nombs"></label>
       <input class="form-control" type="text" name="nombs" id="nombs"></td>
     </tr>
     <tr>
-      <td>Apellidos:</td>
+      <td>Apellidos:&nbsp;</td>
       <td><label for="apelli"></label>
       <input class="form-control" type="text" name="apelli" id="apelli"></td>
     </tr>
@@ -106,12 +106,12 @@
 <form name="form2" method="get" id="formulario2" style="display: none;" action="eliminar_contacto.php">
   <table border="0">
     <tr>
-      <td>Nombres:</td>
+      <td>Nombres:&nbsp;</td>
       <td><label for="nomb"></label>
       <input class="form-control" type="text" name="nomb" id="nomb"></td>
     </tr>
     <tr>
-      <td>Apellidos:</td>
+      <td>Apellidos:&nbsp;</td>
       <td><label for="apel"></label>
       <input class="form-control" type="text" name="apel" id="apel"></td>
     </tr>
